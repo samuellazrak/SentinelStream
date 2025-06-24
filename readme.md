@@ -104,7 +104,7 @@ SentinelStream/
 git clone https://github.com/samuellazrak/SentinelStream.git
 cd SentinelStream
 ./mvnw clean package -DskipTests
-docker-compose up --build
+java -jar target/SentinelStream-0.0.1-SNAPSHOT.jar
 ```
 
 - Kafka UI: [http://localhost:8080](http://localhost:8080)
